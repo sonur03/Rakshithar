@@ -1,0 +1,49 @@
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.purple {
+    color: purple;
+}
+
+.main {
+    color: green;
+}
+
+.content {
+    background-color: rgb(22, 186, 207);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgb(199, 75, 75);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    align-items: center;
+}
+
+.parent {
+    background-color: rgb(241, 162, 14);
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+
+.child {
+    background-color: rgb(16, 177, 123);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translate(-50%, -50%);
+}
